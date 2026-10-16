@@ -1,0 +1,10 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "apps/search-api",
+    "crates/search-core",
+    "crates/retrieval",
+    "crates/vector-ffi"
+]
